@@ -1,0 +1,114 @@
+title:
+  en: Tchiorny Terrier Van Dog Polonica
+  pl: Tchiorny Terrier Van Dog Polonica
+email: info@tchiorny.pl
+description:
+  en: VAN DOG POLONICA - Black Russian Terrier - The main purpose of our breeding is to connect health, temperament, beauty and well balanced character.
+  pl: VAN DOG POLONICA - Czarny Terrier Rosyjski - Podstawowym celem naszej hodowli jest połączenie zdrowia, temperamentu, piękna i zrównoważonego charakteru.
+  de: 
+index:
+  en: index-en.html
+  pl: index.html
+  de: index-de.html
+feed:
+  en: /feed.xml
+  pl: /feed-pl.xml
+  de: /feed-de.xml
+baseurl: ""
+url: "https://tchiorny.pl"
+
+permalink: /:title
+
+navigation:
+ en:
+   - name: Mainpage
+     url: /en/
+   - name: Black Terrier
+     url: /en/Black Terrier/
+   - name: Photogallery
+     url: /en/Photogallery/
+   - name: Links
+     url: /en/Links/
+   - name: Basset Fauve de Bretagne
+     url: https://vandog.pl/en/
+   - name: Contact
+     url: /en/Contact
+ pl:
+   - name: Główna
+     url: /
+   - name: Nasza Hodowla
+     url: \#
+     dropdown:
+       - name: Nasze Suki
+         url: /pl/Nasze Suki
+         dropdown:
+           - name: XL-Girl Van Dog Polonica
+             url: /pl/XL-Girl Van Dog Polonica
+       - name: Założyciele Hodowli
+         url: /pl/Załozyciele Hodowli
+       - name: Osiągnięcia
+         url: /pl/Osiagniecia
+   - name: O Czarnym Terierze
+     url: \#
+     dropdown:
+       - name: Standard FCI
+         url: /pl/Standard FCI
+       - name: Standard RFK
+         url: /pl/Standard RFK
+       - name: Poglądowy Schemat Anatomiczny
+         url: /pl/Pogladowy Schemat Anatomiczny
+       - name: Rys Historyczny
+         url: /pl/Rys Historyczny
+       - name: Czarny Terier w Polsce 1986 - 2000
+         url: /pl/Czarny Terier w Polsce 1986 - 2000
+       - name: Tchiorny
+         url: /pl/Tchiorny
+       - name: Dolegliwości
+         url: /pl/Dolegliwosci
+       - name: Droga do Europy
+         url: /pl/Droga do Europy
+       - name: Pielęgnacja i Strzyżenie
+         url: /pl/Pielegnacja i Strzyzenie
+       - name: Jaki jest Czarny Terier
+         url: /pl/Jaki jest Czarny Terier
+   - name: Fotogaleria
+     url: /pl/Fotogaleria/
+   - name: Linki
+     url: /pl/Linki/
+   - name: Basset Bretoński
+     url: https://vandog.pl/pl/
+   - name: Kontakt
+     url: /pl/Kontakt
+ de:
+   - name: Startseite
+     url: /de/
+   - name: Schwarzer Terrier
+     url: /de/Schwarzer Terrier/
+   - name: Fotogalerie
+     url: /de/Fotogalerie/
+   - name: Linken
+     url: /de/Linken/
+   - name: Basset Fauve de Bretagne
+     url: https://vandog.pl/de/
+   - name: Kontakt
+     url: /de/Kontakt
+
+markdown: kramdown
+kramdown: 
+  parse_block_html: false
+
+exclude:
+ - vendor
+ - _plugins
+ - .sass-cache
+ - maintenance
+
+google_analytics: ""
+
+cdn: https://cdn.tchiorny.pl/vandog/
+
+breadcrumbs_ignore:
+ - /index.html
+ - /pl/index.html
+ - /en/index.html
+ - /de/index.html

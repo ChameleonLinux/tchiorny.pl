@@ -1,0 +1,11 @@
+<div class="wrapper">
+
+  <div class="trigger">
+    {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
+    {% for post in posts %} <a href="{{ post.url }}" class="{{ post.lang }} language-switcher">{{ post.lang }}</a> {% endfor %}
+
+    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+    {% for page in pages %} <a href="{{ page.url }}" class="{{ page.lang }} language-switcher">{{ page.lang }}</a> {% endfor %}
+  </div>
+
+</div>
