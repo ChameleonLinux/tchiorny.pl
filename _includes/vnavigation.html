@@ -1,0 +1,18 @@
+<nav class="site-nav-vertical">
+      <ul class="trigger">
+        {% for my_page in site.navigation[page.lang] %}
+          <li tabindex="-1" class="page-link {% if my_page.name == page.title %}active{% endif %}"><a onfocus="focusParent(this)" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.name }}</a>
+            {% if my_page.dropdown != null %}<ul class="dropdown">
+            {% for subpage in my_page.dropdown %}
+              <li tabindex="-1" class="page-link {% if subpage.name == page.title %}active{% endif %}"><a onfocus="focusParent(this)" href="{{ subpage.url | prepend: site.baseurl }}">{{ subpage.name }}</a>
+              {% if subpage.dropdown != null %}<ul class="dropdown">
+              {% for 2subpage in subpage.dropdown %}
+                <li tabindex="-1" class="page-link {% if 2subpage.name == page.title %}active{% endif %}"><a onfocus="focusParent(this)" href="{{ subpage.url | prepend: site.baseurl }}">{{ 2subpage.name }}</a></li>
+            {% endfor %}</ul>
+            {% endif %}</li>
+            {% endfor %}</ul>
+            {% endif %}</li>
+        {% endfor %}
+      </ul>
+</nav>
+<script async>function focusParent(e){e.parentNode.focus();}</script>
