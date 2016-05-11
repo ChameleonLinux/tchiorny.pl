@@ -1,17 +1,23 @@
 <div class="breadcrumbs wrapper">
-  <a href="{% if page.lang == "en" %}/en/index.html">Home{% endif %}
-  {% if page.lang == "pl" %}/index.html">Główna{% endif %}
-  {% if page.lang == "de" %}/de/index.html">Startseite{% endif %}</a>
-  {% for category in page.categories %} 
-  → <a href="/{{ page.lang }}/{{ category }}">{{ category }}</a>
-  {% endfor %}
-  {% assign render = true %}
-  {% for ignore in site.breadcrumbs_ignore %}
-    {% if ignore == page.url %}
-      {% assign render = false %}
+  <h1>{{ page.title }}</h1>
+  <div class="right">
+    <div><span style="font-size:21px">&nbsp;</span><a href="{% if page.lang == "en" %}/en/index.html">Home{% endif %}
+    {% if page.lang == "pl" %}/index.html">Główna{% endif %}
+    {% if page.lang == "de" %}/de/index.html">Startseite{% endif %}</a>
+    {% for category in page.categories %} 
+    → <a href="/{{ page.lang }}/{{ category }}">{{ category }}</a>
+    {% endfor %}
+    {% if page.incat != null %}
+    → <a href="/{{ page.lang }}/{{ page.incat }}">{{ page.incat }}</a>
     {% endif %}
-  {% endfor %}
-  {% if render == true %}
-  → <strong>{{ page.title }}</strong>
-  {% endif %}
+    {% assign render = true %}
+    {% for ignore in site.breadcrumbs_ignore %}
+      {% if ignore == page.url %}
+        {% assign render = false %}
+      {% endif %}
+    {% endfor %}
+    {% if render == true %}
+    → <strong>{{ page.title }}</strong>
+    {% endif %}</div>
+  </div>
 </div>

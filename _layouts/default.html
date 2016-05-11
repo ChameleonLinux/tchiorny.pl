@@ -13,15 +13,17 @@
 
       {% include motto.html %}
 
-    </header>
+      {% include navigation.html %}
 
-    {% include vnavigation.html %}
+    </header>
 
     <div class="page-content">
 
       {% include breadcrumb.html %}
 
-      <div class="wrapper">
+      {% include catnavigation.html %}
+
+      <div class="wrapper page">
         {{ content }}
       </div>
     </div>

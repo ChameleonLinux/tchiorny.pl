@@ -1,15 +1,15 @@
 title:
   en: Tchiorny Terrier Van Dog Polonica
   pl: Tchiorny Terrier Van Dog Polonica
-email: info@tchiorny.pl
+email: info@vandog.pl
 description:
   en: VAN DOG POLONICA - Black Russian Terrier - The main purpose of our breeding is to connect health, temperament, beauty and well balanced character.
   pl: VAN DOG POLONICA - Czarny Terrier Rosyjski - Podstawowym celem naszej hodowli jest połączenie zdrowia, temperamentu, piękna i zrównoważonego charakteru.
   de: 
 index:
-  en: index-en.html
-  pl: index.html
-  de: index-de.html
+  en: index-en.md
+  pl: index.md
+  de: index-de.md
 feed:
   en: /feed.xml
   pl: /feed-pl.xml
@@ -37,19 +37,36 @@ navigation:
    - name: Główna
      url: /
    - name: Nasza Hodowla
-     url: \#
+     url: /pl/Nasza Hodowla/
      dropdown:
        - name: Nasze Suki
          url: /pl/Nasze Suki
          dropdown:
            - name: XL-Girl Van Dog Polonica
-             url: /pl/XL-Girl Van Dog Polonica
-       - name: Założyciele Hodowli
-         url: /pl/Załozyciele Hodowli
+             url: /pl/Nasze Suki/XL-Girl Van Dog Polonica
+           - name: Zaria Van Dog Polonica
+             url: /pl/Nasze Suki/Zaria Van Dog Polonica
+       - name: Byli z Nami
+         url: /pl/Byli z Nami
+         dropdown:
+           - name: Sendi Big
+             url: /pl/Byli z Nami/Sendi Big
+           - name: IRINA Van Dog
+             url: /pl/Byli z Nami/IRINA Van Dog
+           - name: MADŻALIS Van Dog
+             url: /pl/Byli z Nami/MADZALIS Van Dog
+           - name: Nord Praid HOHŁOMA BOJARYNIA
+             url: /pl/Byli z Nami/Nord Praid HOHLOMA BOJARYNIA
+           - name: RADUGA TANIA Van Dog Polonica
+             url: /pl/Byli z Nami/RADUGA TANIA Van Dog Polonica
+           - name: DENDI Zabadak Star
+             url: /pl/Byli z Nami/DENDI Zabadak Star
+           - name: PRIMADONNA Van Dog Polonica
+             url: /pl/Byli z Nami/PRIMADONNA Van Dog Polonica
        - name: Osiągnięcia
          url: /pl/Osiagniecia
    - name: O Czarnym Terierze
-     url: \#
+     url: /pl/O Czarnym Terierze
      dropdown:
        - name: Standard FCI
          url: /pl/Standard FCI
