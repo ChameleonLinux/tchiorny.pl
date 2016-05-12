@@ -1,11 +1,12 @@
-<div class="wrapper">
-
-  <div class="trigger">
+    {% assign find = true %}
     {% assign posts=site.posts | where:"ref", page.ref | sort: 'lang' %}
-    {% for post in posts %} <a href="{{ post.url }}" class="{{ post.lang }} language-switcher">{{ post.lang }}</a> {% endfor %}
+    {% for post in posts %}
+      <a href="{{ post.url }}" class="{{ post.lang }} language-switcher">{{ post.lang }}</a>
+      {% assign find = false %}
+      {% break %}
+    {% endfor %}
 
-    {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
-    {% for page in pages %} <a href="{{ page.url }}" class="{{ page.lang }} language-switcher">{{ page.lang }}</a> {% endfor %}
-  </div>
-
-</div>
+    {% if find == true %}
+      {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}
+      {% for page in pages %} <a href="{{ page.url }}" class="{{ page.lang }} language-switcher">{{ page.lang }}</a> {% endfor %}
+    {% endif %}

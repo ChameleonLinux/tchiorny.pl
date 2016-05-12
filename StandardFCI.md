@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Standard FCI
 permalink: /pl/Standard FCI
 ref: fci
