@@ -8,7 +8,7 @@ incat: Byli z Nami
 categories:
   - Nasza Hodowla
 ---
-<snel-img src="{{ site.cdn }}/images/vandogs_pl/Raduga-Tania Van Dog Polonica.jpg"></snel-img>
+<img src="{{ site.cdn }}/images/vandogs_pl/Raduga-Tania Van Dog Polonica.jpg">
 <div markdown="1" class="smalllines">
 INTERCHAMPION
 

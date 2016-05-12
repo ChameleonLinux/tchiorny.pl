@@ -8,7 +8,7 @@ incat: Byli z Nami
 categories:
   - Nasza Hodowla
 ---
-<snel-img src="{{ site.cdn }}/images/vandogs_pl/DENDI Zabadak Star.jpg"></snel-img>
+<img src="{{ site.cdn }}/images/vandogs_pl/DENDI Zabadak Star.jpg">
 <div markdown="1" class="smalllines">
 INTERCHAMPION
 

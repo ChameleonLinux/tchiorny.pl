@@ -8,7 +8,7 @@ incat: Byli z Nami
 categories:
   - Nasza Hodowla
 ---
-<snel-img src="{{ site.cdn }}/images/vandogs_pl/Madżalis Van Dog.jpg"></snel-img>
+<img src="{{ site.cdn }}/images/vandogs_pl/Madżalis Van Dog.jpg">
 <div markdown="1" class="smalllines">
 INTERCHAMPION
 

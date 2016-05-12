@@ -8,7 +8,7 @@ incat: Byli z Nami
 categories:
   - Nasza Hodowla
 ---
-<snel-img src="{{ site.cdn }}/images/vandogs_pl/Primadonna Van Dog Polonica.jpg"></snel-img>
+<img src="{{ site.cdn }}/images/vandogs_pl/Primadonna Van Dog Polonica.jpg">
 <table style="BORDER-BOTTOM: #949494 1px solid; BORDER-LEFT: #949494 1px solid; WIDTH: 100%; BORDER-COLLAPSE: collapse; BORDER-TOP: #949494 1px solid; BORDER-RIGHT: #949494 1px solid" border="1" cellspacing="0">
 <tbody>
 <tr>
