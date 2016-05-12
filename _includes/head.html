@@ -15,8 +15,4 @@
   {% assign pages=site.pages | where:"ref", page.ref | sort: 'lang' %}{% for page in pages %}
   <link rel="alternate" hreflang="{{ page.lang }}" href="{{ page.url }}" />{% endfor %}
   <link rel="alternate" type="application/rss+xml" title="{{ site.title[page.lang] }}" href="{{ site.feed[page.lang] | prepend: site.baseurl | prepend: site.url }}">
-  <style snel-boilerplate>@keyframes snel-bodyin {from {opacity:.0;}to {opacity:1}}html.loaded{animation: snel-bodyin .3s}html{opacity:0}html.loaded_animfinished{opacity:1}</style>
-  <noscript>
-    <style>html{opacity:1!important;}</style>
-  </noscript>
 </head>

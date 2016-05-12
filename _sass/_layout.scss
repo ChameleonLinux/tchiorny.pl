@@ -37,6 +37,10 @@ header.top.collapsed>.wrapper:first-child{float:right;display:inline-block;margi
     &:visited {
         color: $grey-color-dark;
     }
+
+    img {
+      width: auto;
+    }
 }
 
 @include media-query($on-palm) {
