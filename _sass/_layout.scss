@@ -405,3 +405,12 @@ header.top.collapsed>.wrapper:first-child{float:right;display:inline-block;margi
 
 .page.wrapper{margin-top:10px;text-align:justify}
 .smalllines {line-height:16px;}
+
+/**
+ * IMGs
+ */
+img {
+  width: 256px;
+  margin-left:10px;
+  float: right;
+}
