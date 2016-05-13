@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tchiorny Terrier Van Dog Polonica</title>
+    <description>VAN DOG POLONICA - Czarny Terrier Rosyjski - Podstawowym celem naszej hodowli jest połączenie zdrowia, temperamentu, piękna i zrównoważonego charakteru.</description>
+    <link>https://tchiorny.pl/</link>
+    <atom:link href="https://tchiorny.pl/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 13 May 2016 21:16:05 +0200</pubDate>
+    <lastBuildDate>Fri, 13 May 2016 21:16:05 +0200</lastBuildDate>
+    <generator>Jekyll v3.0.1</generator>
+    
+    
+  </channel>
+</rss>
